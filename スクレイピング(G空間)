@@ -5,7 +5,7 @@ import time
 import pandas as pd
 
 #ダウンロードした自身のwebdriverのパス
-browser = webdriver.Chrome(executable_path = 'C:\\Users\\socch\\OneDrive\\chromedriver.exe')
+browser = webdriver.Chrome(executable_path = '?')
 browser.implicitly_wait(3)
 
 
